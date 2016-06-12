@@ -1,0 +1,140 @@
+.contact {
+  position: relative;
+  padding-bottom: 90px;
+  background-color: rgba(46, 150, 116, 0.9);
+}
+
+.contact:after {
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("http://photo.foter.com/photos/2/computer-keyboard.jpg");
+  background-size: cover;
+  background-position: center center;
+  content: "";
+}
+
+.contact__content {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: center;
+}
+
+.contact__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-top: 64px;
+  color: #fafafa;
+  font-family: "Satisfy", cursive;
+  font-size: 72px;
+  text-align: center;
+  cursor: default;
+}
+
+.contact__column {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.contact__column:nth-of-type(1) {
+  margin-right: 90px;
+}
+
+.contact__column:nth-of-type(2) {
+  margin-left: 90px;
+}
+
+.contact__column-title {
+  margin-bottom: 36px;
+  color: #fafafa;
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: default;
+}
+
+.contact__social {
+  width: 160px;
+  margin: 0 auto;
+}
+
+.contact__social-link {
+  text-decoration: none;
+}
+
+.contact__social-link:nth-of-type(2) {
+  margin: 0 40px;
+}
+
+.contact__phone {
+  display: block;
+  color: #fafafa;
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.contact__phone {
+  margin-top: 48px;
+}
+
+.contact__fax {
+  margin-top: 12px;
+}
+
+.contact__icon {
+  color: #fafafa;
+}
+
+.contact__icon--small {
+  margin-right: 24px;
+  color: #c1e5f1;
+}
+
+.contact__input {
+  display: block;
+  margin: 12px 0;
+  padding: 8px 16px;
+  width: 240px;
+  color: #fafafa;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: "Raleway", sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact__input:focus {
+  outline: none;
+}
+
+.contact__textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.contact__button {
+  margin-top: 24px;
+  padding: 12px 16px;
+  width: 240px;
+  color: #fafafa;
+  background: transparent;
+  border: 2px solid #c1e5f1;
+  font-family: "Raleway", sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.contact__button:hover {
+  color: #81cde7;
+  background-color: #fafafa;
+  border-color: #fafafa;
+}

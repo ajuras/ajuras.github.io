@@ -1,0 +1,47 @@
+.topbar {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 80px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #d2d0d3;
+}
+
+.topbar__main {
+  float: left;
+}
+
+.topbar__nav {
+  float: right;
+  line-height: 80px;
+}
+
+.topbar__link {
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 300;
+  color: #8caba8;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.topbar__link:hover {
+  color: #1b998b;
+}
+
+.topbar__separator {
+  font-family: "Raleway", sans;
+  font-size: 24px;
+  font-weight: 400;
+  color: #d2d0d3;
+}
+
+.topbar__separator--dot:after {
+  margin-left: 6px;
+  margin-right: 6px;
+  content: "·";
+}

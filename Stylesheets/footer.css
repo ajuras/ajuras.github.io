@@ -1,0 +1,34 @@
+.footer {
+  display: block;
+  padding: 10px 0;
+  background-color: #373d39;
+  border-top: 2px solid #fafafa;
+  text-align: center;
+}
+
+.footer__image {
+  max-height: 48px;
+  vertical-align: middle;
+}
+
+.footer__paragraph {
+  color: #fafafa;
+  font-family: "Raleway", sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__icon {
+  color: #ff8163;
+}
+
+.footer__link {
+  color: #ff8163;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+  color: #B33D2D;
+}
