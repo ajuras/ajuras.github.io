@@ -132,38 +132,46 @@
 
 
 .skill__bar--tech { background-color: #72ba9f; }
-
 .skill__bar--tech:after { background-color: #2e9674; }
 
-.skill__bar--testing:hover:after { width: 70%; content: "\00A0\00A0 70% "; }
-.skill__bar--testing:before {
-  content: "\00A0\00A0 70% ";
-}
-.skill__bar--testing:hover:before {
-  content: "";
-}
-.skill__bar--html:hover:after { width: 60%; content: "60%"; }
+.skill__bar--testing:hover:after { width: 70%; content: "\00A0\00A0\00A0 70% "; }
+.skill__bar--testing:before { content: "\00A0\00A0\00A0 70% ";}
+.skill__bar--testing:hover:before { content: ""; }
 
-.skill__bar--css:hover:after { width: 40%; content: "40%"; }
+.skill__bar--html:hover:after { width: 60%; content: "\00A0\00A0\00A0 60%"; }
+.skill__bar--html:before { content: "\00A0\00A0\00A0 60% "; }
+.skill__bar--html:hover:before { content: ""; }
+
+.skill__bar--css:hover:after { width: 40%; content: "\00A0\00A0\00A0 40%"; }
+.skill__bar--css:before { content: "\00A0\00A0\00A0 40% "; }
+.skill__bar--css:hover:before { content: ""; }
 
 .skill__bar--languages { background-color: #9eb5a8; }
-
 .skill__bar--languages:after { background-color: #6e7a73; }
 
-.skill__bar--english:hover:after { width: 70%; content: "70%"; }
+.skill__bar--english:hover:after { width: 70%; content: "\00A0\00A0\00A0 70%"; }
+.skill__bar--english:before { content: "\00A0\00A0\00A0 70% "; }
+.skill__bar--english:hover:before { content: ""; }
 
-.skill__bar--russian:hover:after { width: 90%; content: "90%"; }
+.skill__bar--russian:hover:after { width: 90%; content: "\00A0\00A0\00A0 90%"; }
+.skill__bar--russian:before { content: "\00A0\00A0\00A0 90% "; }
+.skill__bar--russian:hover:before { content: ""; }
 
-.skill__bar--polish:hover:after { width: 100%; content: "100%"; }
+.skill__bar--polish:hover:after { width: 100%; content: "\00A0\00A0\00A0 100%"; }
+.skill__bar--polish:before { content: "\00A0\00A0\00A0 100% "; }
+.skill__bar--polish:hover:before { content: ""; }
 
 .skill__bar--soft-skills { background-color: #b69d9d; }
-
 .skill__bar--soft-skills:after { background-color: #998888; }
 
-.skill__bar--learning:hover:after { width: 85%; content: "85%"; }
+.skill__bar--communication:hover:after { width: 90%; content: "\00A0\00A0\00A0 90%"; }
+.skill__bar--communication:before { content: "\00A0\00A0\00A0 90% "; }
+.skill__bar--communication:hover:before { content: ""; }
 
-.skill__bar--communication:hover:after { width: 90%; content: "90%"; }
+.skill__bar--interpersonal:hover:after { width: 100%; content: "\00A0\00A0\00A0 100%"; }
+.skill__bar--interpersonal:before { content: "\00A0\00A0\00A0 100% "; }
+.skill__bar--interpersonal:hover:before { content: ""; }
 
-.skill__bar--interpersonal:hover:after { width: 100%; content: "100%"; }
-
-.skill__bar--detail:hover:after { width: 90%; content: "90%"; }
+.skill__bar--detail:hover:after { width: 90%; content: "\00A0\00A0\00A0 90%"; }
+.skill__bar--detail:before { content: "\00A0\00A0\00A0 90% "; }
+.skill__bar--detail:hover:before { content: ""; }
